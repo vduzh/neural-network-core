@@ -1,1 +1,3 @@
-# neural-network-core
+## Install lib
+
+- pip install numpy 
