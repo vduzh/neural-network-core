@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from create_basic import predict
+from basic_inference import predict
 
 
 class TestPredict(unittest.TestCase):
@@ -39,7 +39,7 @@ class TestPredict(unittest.TestCase):
         self.weights = [w1, w2]
         self.biases = [b1, b2]
 
-    def test_(self):
+    def test_predict(self):
         # create test data
         inputs = np.array([
             # Sepal length
